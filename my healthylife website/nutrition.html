@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover healthy eating guides, balanced meal plans, and nutritious recipes at HealthyLife. Learn about macronutrients, vitamins, and creating sustainable eating habits.">
+    <meta name="keywords" content="healthy eating, nutrition, meal plans, recipes, balanced diet, macronutrients, vitamins, minerals, healthy recipes, dietary guidelines, food planning, nutritious meals">
+    <title>Nutrition - HealthyLife</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/nutrition.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="MyImages/logo.png" alt="HealthyLife Logo" width="50" height="50">
+                <div class="logo-text">Healthy<span>Life</span></div>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="hidden-toggle">
+            <label for="menu-toggle" class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="nutrition.html" style="color: var(--primary);">Nutrition</a>
+                <a href="fitness.html">Fitness</a>
+                <a href="wellness.html">Wellness</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="nutrition-hero">
+        <div class="container hero-content">
+            <div class="hero-logo">
+                <img src="MyImages/logo.png" alt="HealthyLife Logo">
+            </div>
+            <h1>Nutrition and Healthy Eating</h1>
+            <p>
+                Proper nutrition is the foundation of a healthy lifestyle. 
+                Discover how to make informed food choices, create balanced meal plans,
+                and develop sustainable eating habits that support your wellness goals.
+            </p>
+            <a href="#content" class="btn">Explore Nutrition</a>
+        </div>
+    </section>
+
+    <section id="content" class="content-section">
+        <div class="container">
+            <h2 class="section-title">The Foundations of Healthy Eating</h2>
+            
+            <div class="content-grid">
+                <div class="main-content">
+                    <div class="info-card">
+                        <h3>Macronutrients: The Building Blocks of Nutrition</h3>
+                        <p>Macronutrients are nutrients your body needs in large quantities for energy and proper functioning.</p>
+                        <ul>
+                            <li><strong>Proteins:</strong> Essential for building and repairing tissues, muscles, and organs</li>
+                            <li><strong>Carbohydrates:</strong> The body's main source of energy, especially for the brain</li>
+                            <li><strong>Fats:</strong> Important for energy, hormone production, and absorption of certain vitamins</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Micronutrients: Essential Vitamins and Minerals</h3>
+                        <p>Although needed in smaller quantities, micronutrients are crucial for many bodily functions:</p>
+                        <ul>
+                            <li>Support the immune system</li>
+                            <li>Enable energy production from food</li>
+                            <li>Maintain bone health and strength</li>
+                            <li>Support brain functions and nervous system</li>
+                            <li>Act as antioxidants to protect cells from damage</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>The Vital Role of Hydration</h3>
+                        <p>Water is essential for almost all bodily functions:</p>
+                        <ul>
+                            <li>Regulates body temperature</li>
+                            <li>Helps transport nutrients throughout the body</li>
+                            <li>Facilitates digestion and prevents constipation</li>
+                            <li>Lubricates joints and protects organs</li>
+                            <li>Helps eliminate waste</li>
+                        </ul>
+                        <p>Aim to drink at least 8 glasses (2 liters) of water per day, more if you're active.</p>
+                    </div>
+                    
+                    <h2>Create Your Perfect Meal Plan</h2>
+                    
+                    <div class="info-card">
+                        <h3>Balanced Plate Guidelines</h3>
+                        <ul>
+                            <li>½ plate: Vegetables and fruits</li>
+                            <li>¼ plate: Whole grains</li>
+                            <li>¼ plate: Lean proteins</li>
+                            <li>Include healthy fats in moderation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Sample Meal Plans</h3>
+                        <p><strong>Weight management:</strong> Greek yogurt, grilled chicken salad, baked salmon</p>
+                        <p><strong>Energy boost:</strong> Oatmeal, hummus wrap, tofu stir-fry</p>
+                        <p><strong>Muscle building:</strong> Eggs and toast, turkey breast, lean steak</p>
+                    </div>
+                </div>
+                
+                <div class="sidebar">
+                    <div class="info-card">
+                        <h3>Visual Guide</h3>
+                        <div style="text-align: center;">
+                            <iframe width="100%" height="215" src="https://www.youtube.com/embed/SFE1DfAlipo?si=bjogsEAOQeibXocl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <p><em>Example of a balanced plate composition</em></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3>Quick Tips</h3>
+                        <ul>
+                            <li>Fill half your plate with vegetables</li>
+                            <li>Choose whole grains over refined ones</li>
+                            <li>Include lean protein sources</li>
+                            <li>Limit added sugars and salt</li>
+                            <li>Eat slowly and savor each bite</li>
+                            <li>Plan your meals in advance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Healthy and Delicious Recipes</h2>
+            <div class="gallery">
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition1.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition3.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition4.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition5.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition6.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition7.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition2.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nitrition8.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition9.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/nutrition1.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/11.jpeg" alt="Healthy recipe">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="MyImages/12.jpeg" alt="Healthy recipe">
+                </div>
+            </div>
+
+            <!-- The Image Modal -->
+            <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+                <a class="next" onclick="changeImage(1)">&#10095;</a>
+                <div class="modal-content">
+                    <img id="modalImg" alt="Recipe large view">
+                </div>
+            </div>
+            
+            <h2 class="section-title">Nutritional Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Calorie and Nutrient Calculator</h3>
+                    <p>Calculate your daily calorie needs and nutrient distribution based on your goals</p>
+                    <a href="https://www.calculator.net/calorie-calculator.html?form=MG0AV3">Use the calculator <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="tool-card">
+                    <h3>Hydration Tracker</h3>
+                    <p>Track your daily water intake and get reminders to stay hydrated</p>
+                    <a href="https://blog.drinkhint.com/water/8-of-the-best-water-apps-to-use-for-free/">Start tracking <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="tool-card">
+                    <h3>Meal Planner Template</h3>
+                    <p>Weekly meal planning template to organize your healthy eating schedule</p>
+                    <a href="https://firstprintable.com/meal-planner/">Download PDF <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="tool-card">
+                    <h3>Food Journal</h3>
+                    <p>Track your daily meals and monitor your eating habits</p>
+                    <a href="https://www.101planners.com/food-log-template/">Start journaling <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h4>HealthyLife helps individuals adopt and maintain healthier lifestyles through</h4>
+                    <img src="MyImages/logo.png" alt="HealthyLife Logo" width="80" height="80">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="nutrition.html">Nutrition</a>
+                    <a href="fitness.html">Fitness</a>
+                    <a href="wellness.html">Wellness</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                <span><i class="fas fa-envelope"></i> healthylife@gmail.com</span>
+                <span><i class="fas fa-phone"></i> 0603737036</span>
+                <span><i class="fas fa-map-marker-alt"></i>Villa d'allegria Midrand</span>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.4974253793894!2d28.131243075408204!3d-25.998500477203873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956f386149d757%3A0x371fd628bf1201c!2sVilla%20D&#39;%20Alegria%20Complex%20-%20Midrand.!5e1!3m2!1sfr!2sza!4v1758863699815!5m2!1sfr!2sza" 
+                        class="footer-map"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="HealthyLife Location Map">
+                    </iframe>
+                </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>All Rights Reserved &copy; HealthyLife 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JavaScript/nutrition.js"></script>
+</body>
+</html>
