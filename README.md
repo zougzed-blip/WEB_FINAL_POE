@@ -3,7 +3,7 @@
 
 A modern, fully responsive health and wellness website built with **HTML5**, **CSS3**, and **JavaScript**, dedicated to promoting healthy lifestyles through nutrition, fitness, and wellness resources.
 
-GITHUB_LINK: 
+GITHUB_LINK: https://github.com/zougzed-blip/WEB_FINAL_POE/blob/main/README.md
 
 ---
 
